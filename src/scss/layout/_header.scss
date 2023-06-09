@@ -8,22 +8,24 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 20px;
+        font-size: 22px;
         flex-grow: 1;
         gap: 10px;
     }
    
-    &-menu{
-        height: 35px;
-        background-color: $background-link;
-        font-size: 13px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
+    
 }
 
 .link{
     text-decoration: none;
     color: white;
+}
+
+.links-menu {
+    height: 35px;
+    background-color: $background-link;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
