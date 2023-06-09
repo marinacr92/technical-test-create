@@ -1,2 +1,24 @@
 .footer {
+    background-color: $background-basic;
+    grid-row: 3/4;
+    
+    &-nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &-menu{
+        width: 85%;
+        background-color: $background-link;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &-socials{
+        width: 35%;
+        background-color: $background-socials;
+        display: flex;
+        justify-content: space-around;
+    }
 }

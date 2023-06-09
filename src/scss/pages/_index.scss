@@ -1,0 +1,6 @@
+body {
+    height: 100vh;
+    font-family: $font-basic;
+    display: grid;
+    grid-template-rows: 18% 1fr 18%;
+}
