@@ -14,10 +14,20 @@
         flex-direction: column;
         align-items: center;
         flex-grow: 1;
+
+        @media all and (min-width: $breakpoint-desktop) {
+            flex-grow: 0.8;
+            flex-direction: row;
+            justify-content: space-between;
+        }
     }
 
     &-menu{
         width: 85%;
+
+        @media all and (min-width: $breakpoint-desktop) {
+            width: 25%;
+        }
     }
 
     &-socials{
@@ -28,5 +38,11 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+
+        @media all and (min-width: $breakpoint-desktop) {
+            height: 45px;
+            width: 16%;
+            font-size: 15px;
+        }
     }
 }

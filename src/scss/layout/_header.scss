@@ -5,8 +5,9 @@
     flex-direction: column;
 
     @media all and (min-width: $breakpoint-desktop) {
-        flex-direction: row;
         grid-column: 1/5;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 
     &-title{
@@ -16,11 +17,27 @@
         font-size: 35px;
         flex-grow: 1;
         gap: 10px;
+
+        @media all and (min-width: $breakpoint-desktop){
+            flex-grow: 0;
+            font-size: 30px;
+        }
     }
     
     &-title img{
         width: 52px;
         height: 52px;
+
+        @media all and (min-width: $breakpoint-desktop) {
+            width: 45px;
+            height: 45px;
+        }
+    }
+
+    &-nav{
+        @media all and (min-width: $breakpoint-desktop) {
+            width: 430px;
+        }
     }
 }
 
@@ -37,4 +54,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    @media all and (min-width: $breakpoint-desktop){
+        height: 45px;
+        font-size: 15px;
+    }
+}
+
+.header .links-menu{
+    @media all and (min-width: $breakpoint-desktop) {
+        margin-top: 20px;
+    }
 }

@@ -14,11 +14,21 @@
         font-weight: 700;
         font-size: 26px;
         margin: 20px 0;
+
+        @media all and (min-width: $breakpoint-desktop) {
+            font-size: 22px;
+            margin: 18px 0;
+        }
     }
 
     &-p{
         font-size: 17px;
         margin-bottom: 20px;
+
+        @media all and (min-width: $breakpoint-desktop) {
+            font-size: 14px;
+            margin-bottom: 18px;
+        }
 
         &_special{
             font-size: 17px;
@@ -27,6 +37,12 @@
             width: 80%;
             border-left: 3px solid lightgrey;
             padding-left: 12px;
+
+            @media all and (min-width: $breakpoint-desktop) {
+                font-size: 14px;
+                width: 85%;
+                margin-bottom: 18px;
+            }
         }
     }
 }
