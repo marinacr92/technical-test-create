@@ -1,19 +1,22 @@
 .nav__links {
-    height: 5rem;
+    height: 3.5rem;
     background-color: $background-link;
-    font-size: 1.8rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
     @media all and (min-width: $breakpoint-desktop) {
         height: 4.5rem;
-        font-size: 1.5rem;
     }
 }
 
 .links__link {
+    font-size: 1.2rem;
     text-decoration: none;
     color: white;
     cursor: pointer;
+
+    @media all and (min-width: $breakpoint-desktop){
+        font-size: 1.5rem;
+    }
 }
