@@ -1,22 +1,45 @@
 .nav__links {
-    height: 3.5rem;
     background-color: $background-link;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.nav__socials {
+    width: 35%;
+    background-color: $background-socials;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
     @media all and (min-width: $breakpoint-desktop) {
-        height: 4.5rem;
+        width: 16%;
     }
 }
 
-.links__link {
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: white;
+.li {
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     cursor: pointer;
 
-    @media all and (min-width: $breakpoint-desktop){
-        font-size: 1.5rem;
+    &:hover {
+        background-color: $background-link-hover;
+    }
+
+    @media all and (min-width: $breakpoint-desktop) {
+        height: 4.5rem;
+    }
+
+    &__link {
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: white;
+
+        @media all and (min-width: $breakpoint-desktop){
+            font-size: 1.5rem;
+        }   
     }
 }
