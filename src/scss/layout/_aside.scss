@@ -9,7 +9,7 @@
         padding: 1.5rem;
     }
 
-    &-content{
+    &__content{
         @media all and (min-width: $breakpoint-desktop){
             background-color: $background-basic;
             width: 21rem;

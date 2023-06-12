@@ -10,11 +10,11 @@
         justify-content: space-evenly;
     }
 
-    &-title{
+    &__title{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 3.5rem;
+        font-size: 2rem;
         flex-grow: 1;
         gap: 1rem;
 
@@ -24,9 +24,9 @@
         }
     }
     
-    &-title img{
-        width: 5.2rem;
-        height: 5.2rem;
+    &__title img{
+        width: 4rem;
+        height: 4rem;
 
         @media all and (min-width: $breakpoint-desktop) {
             width: 4.5rem;
@@ -34,34 +34,14 @@
         }
     }
 
-    &-nav{
+    &__nav{
         @media all and (min-width: $breakpoint-desktop) {
             width: 43rem;
         }
     }
 }
 
-.link{
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-}
-
-.links-menu {
-    height: 5rem;
-    background-color: $background-link;
-    font-size: 1.8rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    @media all and (min-width: $breakpoint-desktop){
-        height: 4.5rem;
-        font-size: 1.5rem;
-    }
-}
-
-.header .links-menu{
+.header .nav__links {
     @media all and (min-width: $breakpoint-desktop) {
         margin-top: 2rem;
     }
