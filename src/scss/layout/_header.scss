@@ -14,29 +14,29 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 35px;
+        font-size: 3.5rem;
         flex-grow: 1;
-        gap: 10px;
+        gap: 1rem;
 
         @media all and (min-width: $breakpoint-desktop){
             flex-grow: 0;
-            font-size: 30px;
+            font-size: 3rem;
         }
     }
     
     &-title img{
-        width: 52px;
-        height: 52px;
+        width: 5.2rem;
+        height: 5.2rem;
 
         @media all and (min-width: $breakpoint-desktop) {
-            width: 45px;
-            height: 45px;
+            width: 4.5rem;
+            height: 4.5rem;
         }
     }
 
     &-nav{
         @media all and (min-width: $breakpoint-desktop) {
-            width: 430px;
+            width: 43rem;
         }
     }
 }
@@ -48,21 +48,21 @@
 }
 
 .links-menu {
-    height: 50px;
+    height: 5rem;
     background-color: $background-link;
-    font-size: 18px;
+    font-size: 1.8rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
     @media all and (min-width: $breakpoint-desktop){
-        height: 45px;
-        font-size: 15px;
+        height: 4.5rem;
+        font-size: 1.5rem;
     }
 }
 
 .header .links-menu{
     @media all and (min-width: $breakpoint-desktop) {
-        margin-top: 20px;
+        margin-top: 2rem;
     }
 }

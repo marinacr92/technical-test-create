@@ -1,6 +1,6 @@
 .main{
     grid-row: 2/3;
-    padding: 0 20px;
+    padding: 0 2rem;
     background-color: white;
 
     @media all and (min-width: $breakpoint-desktop) {
@@ -12,36 +12,36 @@
 
     &-title{
         font-weight: 700;
-        font-size: 26px;
-        margin: 20px 0;
+        font-size: 2.6rem;
+        margin: 2rem 0;
 
         @media all and (min-width: $breakpoint-desktop) {
-            font-size: 22px;
-            margin: 18px 0;
+            font-size: 2.2rem;
+            margin: 1.8rem 0;
         }
     }
 
     &-p{
-        font-size: 17px;
-        margin-bottom: 20px;
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
 
         @media all and (min-width: $breakpoint-desktop) {
-            font-size: 14px;
-            margin-bottom: 18px;
+            font-size: 1.4rem;
+            margin-bottom: 1.8rem;
         }
 
         &_special{
-            font-size: 17px;
-            margin-bottom: 20px;
-            margin-left: 25px;
+            font-size: 1.7rem;
+            margin-bottom: 2rem;
+            margin-left: 2.5rem;
             width: 80%;
-            border-left: 3px solid lightgrey;
-            padding-left: 12px;
+            border-left: 0.3rem solid lightgrey;
+            padding-left: 1.2rem;
 
             @media all and (min-width: $breakpoint-desktop) {
-                font-size: 14px;
+                font-size: 1.4rem;
                 width: 85%;
-                margin-bottom: 18px;
+                margin-bottom: 1.8rem;
             }
         }
     }
