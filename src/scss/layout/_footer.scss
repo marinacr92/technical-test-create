@@ -4,6 +4,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media all and (min-width: $breakpoint-desktop){
+        grid-column: 1/5;
+    }
     
     &-nav{
         display: flex;
@@ -18,8 +22,8 @@
 
     &-socials{
         width: 35%;
-        height: 35px;
-        font-size: 12px;
+        height: 50px;
+        font-size: 18px;
         background-color: $background-socials;
         display: flex;
         justify-content: space-around;

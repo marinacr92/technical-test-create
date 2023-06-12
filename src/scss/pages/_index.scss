@@ -2,5 +2,11 @@ body {
     height: 100vh;
     font-family: $font-basic;
     display: grid;
-    grid-template-rows: 18% 1fr 18%;
+    grid-template-rows: 19% 1fr 18%;
+
+    @media all and (min-width: $breakpoint-desktop) {
+        grid-template-rows: 11% 1fr 10%;
+        grid-template-columns: 6.5% 61% 26% 6.5%;
+        background-color: rgb(234, 234, 234);
+    }
 }

@@ -1,23 +1,28 @@
 .main{
     grid-row: 2/3;
-    padding: 15px;
+    padding: 0 20px;
+    background-color: white;
+
+    @media all and (min-width: $breakpoint-desktop) {
+        grid-column: 2/3;
+    }
 }
 
 .article{
 
     &-title{
-        font-weight: bold;
-        font-size: 17px;
-        margin-bottom: 7px;
+        font-weight: 700;
+        font-size: 26px;
+        margin: 20px 0;
     }
 
     &-p{
-        font-size: 12px;
-        margin-bottom: 10px;
+        font-size: 17px;
+        margin-bottom: 20px;
 
         &_special{
-            font-size: 12px;
-            margin-bottom: 10px;
+            font-size: 17px;
+            margin-bottom: 20px;
             margin-left: 25px;
             width: 80%;
             border-left: 3px solid lightgrey;
