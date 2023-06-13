@@ -3,6 +3,10 @@
     padding: 0 1.5rem;
     background-color: white;
 
+    @media all and (min-width: $breakpoint-tablet){
+        grid-column: 1/3;
+    }
+
     @media all and (min-width: $breakpoint-desktop) {
         grid-column: 2/3;
     }

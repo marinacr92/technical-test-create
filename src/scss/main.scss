@@ -18,9 +18,12 @@ body {
     display: grid;
     grid-template-rows: 19vh 1fr 18vh;
 
+    @media all and (min-width: $breakpoint-tablet) {
+        grid-template-columns: 6.5vw 61vw 26vw 6.5vw;
+    }
+
     @media all and (min-width: $breakpoint-desktop) {
         grid-template-rows: 11vh 1fr 10vh;
-        grid-template-columns: 6.5vw 61vw 26vw 6.5vw;
         background-color: rgb(234, 234, 234);
     }
 }

@@ -33,6 +33,10 @@
         height: 4.5rem;
     }
 
+    &--socials:hover{
+        background-color: $background-socials-hover;
+    }
+
     &__link {
         font-size: 1.2rem;
         text-decoration: none;
